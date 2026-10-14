@@ -1,0 +1,32 @@
+{
+  "primary_model": "XGBoost",
+  "primary_model_file": "model_xgboost.joblib",
+  "comparison_models": {
+    "Logistic Regression": "model_logistic_regression.joblib",
+    "Decision Tree": "model_decision_tree.joblib",
+    "Random Forest": "model_random_forest.joblib"
+  },
+  "feature_order": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalachh",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "scaled_columns": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalachh",
+    "oldpeak"
+  ],
+  "scaler_file": "scaler.joblib"
+}
